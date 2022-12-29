@@ -12,11 +12,11 @@
 	* インストールに使用したスクリプト(https://github.com/ryuichiueda/ros2_setup_scripts/blob/master/setup.bash)
 
 ## インストール方法
-# 本パッケージをクローンし、依存関係をインストールする
+### 本パッケージをクローンし、依存関係をインストールする
 cd ~ros2_ws/src
 git clone https://github.com/TarouSatou/Moc.git
 
-# パッケージをビルドする
+### パッケージをビルドする
 cd ~/ros2_ws
 colcon build
 source ~/.bashrc
